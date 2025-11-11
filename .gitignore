@@ -24,3 +24,4 @@ packages-lock.json
 /Samples/WorkWithHybridCLR/Assets/Obfuz/SymbolObfus/symbol-mapping.xml
 /Samples/WorkWithHybridCLR/Assets/StreamingAssets/HotUpdate.dll.bytes
 symbol-mapping.xml
+/QuickStart/.utmp

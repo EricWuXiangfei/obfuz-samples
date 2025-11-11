@@ -1,4 +1,4 @@
-using Obfuz;
+ï»¿using Obfuz;
 using Obfuz.EncryptionVM;
 using System.Collections;
 using System.Collections.Generic;
@@ -7,8 +7,8 @@ using UnityEngine;
 
 public class Bootstrap : MonoBehaviour
 {
-    // ³õÊ¼»¯EncryptionServiceºó±»»ìÏıµÄ´úÂë²ÅÄÜÕı³£ÔËĞĞ£¬
-    // Òò´Ë¾¡¿ÉÄÜµØÔçµØ³õÊ¼»¯Ëü¡£
+    // åˆå§‹åŒ–EncryptionServiceåè¢«æ··æ·†çš„ä»£ç æ‰èƒ½æ­£å¸¸è¿è¡Œï¼Œ
+    // å› æ­¤å°½å¯èƒ½åœ°æ—©åœ°åˆå§‹åŒ–å®ƒã€‚
     [RuntimeInitializeOnLoadMethod(RuntimeInitializeLoadType.AfterAssembliesLoaded)]
     private static void SetUpStaticSecretKey()
     {
